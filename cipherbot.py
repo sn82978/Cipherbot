@@ -15,7 +15,7 @@ TOKEN = os.environ['DISCORD_TOKEN']
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
-botDescription="Bot"
+botDescription="A Discord bot that gives aristocrats to solve for the Science Olympiad Codebusters event"
 bot = commands.Bot(command_prefix="c.", help_command=None, description=botDescription, intents=intents)
 
 #functions for the bot
